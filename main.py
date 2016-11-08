@@ -63,7 +63,7 @@ def fit_data(compiled_data_dict):
         old_guess_vector = new_guess_vector
         new_guess_vector = new_guess(old_guess_vector, compiled_data_dict)
 
-    print "Result for eta = " + new_guess_vector.eta + " and V0 = " + new_guess_vector.V0
+    print ("Result for eta = " + str(new_guess_vector.eta) + " and V0 = " + str(new_guess_vector.V0))
 
 
 if __name__ == "__main__":

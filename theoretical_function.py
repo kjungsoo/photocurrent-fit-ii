@@ -15,7 +15,7 @@ def modified_li2(x):
 
 
 def f(x):
-    math.pi * math.pi + 3.0 * x * x + 6.0 * modified_li2(x)
+    return math.pi * math.pi + 3.0 * x * x + 6.0 * modified_li2(x)
 
 
 def make_photocurrent_func(eta, x0):
